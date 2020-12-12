@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>assets</key>
+			<array>
+				<dict>
+					<key>kind</key>
+					<string>software-package</string>
+					<key>url</key>
+					<string>https://public.bn.files.1drv.com/y4msHl3E8XGKBtuVYAorV2WVqW-tP91TWAmeLX_ID2lCKo5eYdbp1gIucnWhWF5wbHAWhcURwCy6c4_gAh6Aco0V0JzGnF4KnqEu5u-D-ze2eBnXFVEtW2PeUpI8TkxtmTH-7mDawUE51e7CpLV2hPgswWi9MHx6zikI0ltggXrzVuk8f2BrB4x92ls-OnMoNzvA5zHmj4YS19J-ahMaItGQlWf3rwu-p0kyt6QfTliMjM?access_token=EwAAA61DBAAUzl/nWKUlBg14ZGcybuC4/OHFdfEAAcLYWhgGSrga/lkZojW0M4pipZvFbGgL3LjpwF3nr92Sd4VmdSexLZBis0ap7C27ASo3Mn1WbHr%2bBbdYZE4B2ERB3q5Ztstodg6HtZYkrgz9fp2e/6iuYav16i%2bv6HSq6rX3VyuGTysd8WCfKYBKcGl1GRdYg0JbZT%2bc8hBseXKg2ihha966u%2bpxwnelzBEKIWnKJY1pv55aNc0XRVR421uPpwZG/nUN35C%2bwgpzdPrucs0YUSk7ok10cBhGNtfocNyqzAe7cEJ4tE6orkc8GJEJlZeD/jN2jSxLXZWmrtcmro0jZT09bGc0hPyEb%2bcfOIC4YhzogiQYuKARH4FibFsDZgAACBX4EzsgMhpw0AHHbUIbnDIKP0XyAkL5dZ2YhocJ0ky2FI4eRI6dW329x2b0ybC3FCeH0pSVklM5JMebAEeJCgPUkwcZ5RSccz2A/4qu7DyBIb6dnAU3pzCqp1dzKNN72LHGu/Tc%2bPAJ24T6rkdf5Yl87Ricn7AdWh9nmL7qaOSpWnM9l1oW/iquG0%2brFQlp9kEl7nmYcPiABtVnOProcMO8l0wsv1G8v7HoPcaw4in9DdEGgWU96PKjPIDtrfJO8qO3Y62w2a5IGHkXuxEOebBcLPKrGYeGes9VBCnTDJI0W0jgIf6DixmzWnhMRJniGUcMAvIJL3tWQqey5jVwjlnB8kv%2b0Pln2MuuHAKhf5bL6VAeTl4SQupK62SyfhqrtHmhoX8BUO3tbYe3bNmpa5Vs5cXP7FG5AVzQG1UubTZG%2b1vW83wLsiAiXoRgBdRMQQyUAtpPEy8WGSjJoPohjaQBX8dXGE3/69mvFUNUXaVuoPjb4cPJPavDDhrW7ojjHnoLwqHa7RUtfy7EYxVJuMJTFmeHvB4tRgYb91K5SrLI3dCk6L%2b23O6YO%2beloLyR098Jp%2bNCyQ8RAE1gu1STmTt3B5bSEVnEZ6B5DDyOFXfC40n1qe4iuc45mwYC</string>
+				</dict>
+			</array>
+			<key>metadata</key>
+			<dict>
+				<key>bundle-identifier</key>
+				<string>com.iphonecake.appcakej</string>
+				<key>bundle-version</key>
+				<string>7.1.3</string>
+				<key>kind</key>
+				<string>software</string>
+				<key>title</key>
+				<string>appcakej</string>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>
