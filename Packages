@@ -40,3 +40,35 @@ Section: Tweaks
 Description: Istall Any IPA Works With 11-13.7
 Author: Linus Yang, Karen
 Name: AppSync Unified
+
+Package: com.r333d.cylinder
+Version: 1.0.4-5
+Architecture: iphoneos-arm
+firmware (>= 3.0), mobilesubstrate (>= 0.9.6011), preferenceloader
+Icon: https://bhornbeck-ux.github.io/BenjaminAppInstaller/CydiaIcon.png
+Maintainer: Benjamin Hornbeck <hornbeckops@gmail.com>
+Filename: /CYLINDER.deb
+Size: 330868
+MD5sum: 36ccf9eccde83b1a1dea0fba55299c68
+SHA1: 23669b6f3788e766a0ae4317891b36cf77df9131
+SHA256: f1495d6a1de9a7947548452fc90b0ce7923a7710ad3c0c8d2f591b697c78f2b5
+Section: Tweaks
+Description: Make Your Icons Dance
+Author: Reed Weichler (rweichler) <rweichler+cydia@gmail.com>
+Name: Cylinder
+
+Package: com.laughingquoll.prysm
+Version: 1.8.5
+Architecture: iphoneos-arm
+Depends: mobilesubstrate, com.laughingquoll.prefixui, com.opa334.ccsupport
+Icon: https://bhornbeck-ux.github.io/BenjaminAppInstaller/CydiaIcon.png
+Maintainer: Benjamin Hornbeck <hornbeckops@gmail.com>
+Filename: /prysm.deb
+Size: 3032
+MD5sum: 8687e19b25f7d39e1d51d85468c59fd3
+SHA1: dc75212e4f53e9993535672db2374d009c02b9d5
+SHA256: e1f280ff946ac55e01d6d777e58ae1326ca50964171af56aed9d86bc47fee667
+Section: Tweaks
+Description: Cool Control Center
+Author: Benjamin Hornbeck <hornbeckops@gmail.com>
+Name: Prysm
