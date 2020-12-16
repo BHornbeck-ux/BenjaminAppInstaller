@@ -26,3 +26,16 @@ Description: Get Things For Free From Cydia, Zebra, And Installer 5.
 Author: julioverne <julioverne@me.com>
 Name: CyDown
 
+Package: net.angelxwind.appsyncunified
+Version: 84.0
+Architecture: iphoneos-arm
+Maintainer: Benjamin Hornbeck <hornbeckops@gmail.com>
+Filename: /appsync.deb
+Size: 496
+MD5sum: cd0eb2e0a8ebbd2f6a052fa596f03a89
+SHA1: ae29c69e57da2d62ff41ccd77ead0af1fc14e3ab
+SHA256: 47027504dc6b13bde402e5423fd3f06d6c20b94b9b94d274677753743cc692be
+Section: Tweaks
+Description: Istall Any IPA Works With 11-13.7
+Author: Linus Yang, Karen
+Name: AppSync Unified
