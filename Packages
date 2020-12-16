@@ -11,3 +11,18 @@ Section: Themes
 Description: My First Tweak
 Author: Benjamin Hornbeck <hornbeckops@gmail.com>
 Name: HornbeckTheme
+
+Package: com.hornbeck.benjamin.HornbeksTheme
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: Benjamin Hornbeck <hornbeckops@gmail.com>
+Filename: /CyDown.deb
+Size: 17149062
+MD5sum: 411dc2db99e14a10c691fc3d158ba608
+SHA1: 4de0454bd45ade2374aa7b0ba43a0a681a531d03
+SHA256: 8042104a318f3d6bc9ca01e32f4aba1740d9c8b15b62bd93e3be83d3eb233e38
+Section: Themes
+Description: My First Tweak
+Author: Benjamin Hornbeck <hornbeckops@gmail.com>
+Name: HornbeckTheme
+
