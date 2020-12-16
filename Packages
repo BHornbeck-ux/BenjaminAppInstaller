@@ -36,6 +36,6 @@ MD5sum: 979c1973c503b9eb4e9e1151d97c4421
 SHA1: e7b5a9a5fe95eef270b1d0e2e70a40a6567a1636
 SHA256: 41dd591135281ca31ed5564ffa283f126bc0da1818691c8601abe6d7c18b7fff
 Section: Tweaks
-Description: Istall Any IPA Works With 11-13.7
+Description: Istall Any IPA
 Author: Linus Yang, Karen
 Name: AppSync Unified
