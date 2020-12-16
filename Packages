@@ -29,6 +29,7 @@ Name: CyDown
 Package: net.angelxwind.appsyncunified
 Version: 84.0
 Architecture: iphoneos-arm
+Depends: firmware (>= 5.0), firmware (<= 13.7), firmware (<< 12.0) | mobilesubstrate (>= 0.9.5100) | mobilesubstrate (<= 0.9.6301) | mobilesubstrate (= 0.9.7020) | mobilesubstrate (= 0.9.7033) | mobilesubstrate (>= 0.9.7034) | com.ex.substitute (>= 0.1.0), firmware (<< 12.0) | mobilesubstrate (<< 99.0) | com.ex.libsubstitute (>= 0.1.1)
 Maintainer: Benjamin Hornbeck <hornbeckops@gmail.com>
 Filename: /appsync.deb
 Size: 496
