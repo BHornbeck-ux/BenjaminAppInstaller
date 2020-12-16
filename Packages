@@ -47,7 +47,7 @@ Architecture: iphoneos-arm
 firmware (>= 3.0), mobilesubstrate (>= 0.9.6011), preferenceloader
 Icon: https://bhornbeck-ux.github.io/BenjaminAppInstaller/CydiaIcon.png
 Maintainer: Benjamin Hornbeck <hornbeckops@gmail.com>
-Filename: /CYLINDER.deb
+Filename: /cylinder.deb
 Size: 330868
 MD5sum: 36ccf9eccde83b1a1dea0fba55299c68
 SHA1: 23669b6f3788e766a0ae4317891b36cf77df9131
