@@ -17,11 +17,11 @@ Version: 7.1.1
 Architecture: iphoneos-arm
 Maintainer: Benjamin Hornbeck <hornbeckops@gmail.com>
 Filename: /CyDown.deb
-Size: 17149062
-MD5sum: 411dc2db99e14a10c691fc3d158ba608
-SHA1: 4de0454bd45ade2374aa7b0ba43a0a681a531d03
-SHA256: 8042104a318f3d6bc9ca01e32f4aba1740d9c8b15b62bd93e3be83d3eb233e38
-Section: Themes
+Size: 4358056
+MD5sum: cd0eb2e0a8ebbd2f6a052fa596f03a89
+SHA1: ae29c69e57da2d62ff41ccd77ead0af1fc14e3ab
+SHA256: 47027504dc6b13bde402e5423fd3f06d6c20b94b9b94d274677753743cc692be
+Section: Tweaks
 Description: Get Things For Free From Cydia, Zebra, And Installer 5.
 Author: julioverne <julioverne@me.com>
 Name: CyDown
