@@ -1,0 +1,89 @@
+Package: com.hornbeck.benjamin.HornbeksTheme
+Version: 2.0
+Architecture: iphoneos-arm
+Maintainer: Benjamin Hornbeck <hornbeckops@gmail.com>
+Filename: /BHornbeckTheme.deb
+Size: 17149062
+MD5sum: 411dc2db99e14a10c691fc3d158ba608
+SHA1: 4de0454bd45ade2374aa7b0ba43a0a681a531d03
+SHA256: 8042104a318f3d6bc9ca01e32f4aba1740d9c8b15b62bd93e3be83d3eb233e38
+Section: Themes
+Description: My First Tweak
+Author: Benjamin Hornbeck <hornbeckops@gmail.com>
+Name: HornbeckTheme
+
+Package: com.julioverne.cydown
+Version: 7.1.1
+Architecture: iphoneos-arm
+Maintainer: Benjamin Hornbeck <hornbeckops@gmail.com>
+Filename: /CyDown.deb
+Size: 4358056
+MD5sum: cd0eb2e0a8ebbd2f6a052fa596f03a89
+SHA1: ae29c69e57da2d62ff41ccd77ead0af1fc14e3ab
+SHA256: 47027504dc6b13bde402e5423fd3f06d6c20b94b9b94d274677753743cc692be
+Section: Tweaks
+Description: Get Things For Free From Cydia, Zebra, And Installer 5.
+Author: julioverne <julioverne@me.com>
+Name: CyDown
+
+Package: net.angelxwind.appsyncunified
+Version: 84.0
+Architecture: iphoneos-arm
+Depends: firmware (>= 5.0), firmware (<= 13.7), firmware (<< 12.0) | mobilesubstrate (>= 0.9.5100) | mobilesubstrate (<= 0.9.6301) | mobilesubstrate (= 0.9.7020) | mobilesubstrate (= 0.9.7033) | mobilesubstrate (>= 0.9.7034) | com.ex.substitute (>= 0.1.0), firmware (<< 12.0) | mobilesubstrate (<< 99.0) | com.ex.libsubstitute (>= 0.1.1)
+Maintainer: Benjamin Hornbeck <hornbeckops@gmail.com>
+Filename: /appsync.deb
+Size: 496
+MD5sum: 979c1973c503b9eb4e9e1151d97c4421
+SHA1: e7b5a9a5fe95eef270b1d0e2e70a40a6567a1636
+SHA256: 41dd591135281ca31ed5564ffa283f126bc0da1818691c8601abe6d7c18b7fff
+Section: Tweaks
+Description: Istall Any IPA Works With 11-13.7
+Author: Linus Yang, Karen
+Name: AppSync Unified
+
+Package: com.r333d.cylinder
+Version: 1.0.4-5
+Architecture: iphoneos-arm
+firmware (>= 3.0), mobilesubstrate (>= 0.9.6011), preferenceloader
+Icon: https://bhornbeck-ux.github.io/BenjaminAppInstaller/CydiaIcon.png
+Maintainer: Benjamin Hornbeck <hornbeckops@gmail.com>
+Filename: /cylinder.deb
+Size: 330868
+MD5sum: 36ccf9eccde83b1a1dea0fba55299c68
+SHA1: 23669b6f3788e766a0ae4317891b36cf77df9131
+SHA256: f1495d6a1de9a7947548452fc90b0ce7923a7710ad3c0c8d2f591b697c78f2b5
+Section: Tweaks
+Description: Make Your Icons Dance
+Author: Reed Weichler (rweichler) <rweichler+cydia@gmail.com>
+Name: Cylinder
+
+Package: com.laughingquoll.prysm
+Version: 1.8.5
+Architecture: iphoneos-arm
+Depends: mobilesubstrate, com.laughingquoll.prefixui, com.opa334.ccsupport
+Icon: https://bhornbeck-ux.github.io/BenjaminAppInstaller/CydiaIcon.png
+Maintainer: Benjamin Hornbeck <hornbeckops@gmail.com>
+Filename: /prysm.deb
+Size: 3032
+MD5sum: 8687e19b25f7d39e1d51d85468c59fd3
+SHA1: dc75212e4f53e9993535672db2374d009c02b9d5
+SHA256: e1f280ff946ac55e01d6d777e58ae1326ca50964171af56aed9d86bc47fee667
+Section: Tweaks
+Description: Cool Control Center
+Author: Benjamin Hornbeck <hornbeckops@gmail.com>
+Name: Prysm
+
+Package: com.benjamin.hornbeck.altstore
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: Benjamin Hornbeck <hornbeckops@gmail.com>
+Depends: Depends: firmware (>= 5.0), firmware (<= 14.1)
+Filename: /altstore.deb
+Size: 2509916
+MD5sum: 963adbede94fa39f3996cab1be24a07b
+SHA1: cbfd43085433081492daf8fb478ea41385edd83c
+SHA256: 3984a5cfa592d477c4740f5168f53bbe923a7e6a53e2b54761deca7b1c192d2c
+Section: Utilities
+Description: Jailbroken version of AltStore with on device signing feauture.
+Author: Benjamin Hornbeck <hornbeckops@gmail.com>
+Name: AltStore Alpha
