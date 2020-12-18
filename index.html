@@ -1,1 +1,358 @@
+<!DOCTYPE html>
+<html>
+<head>
+<body>
+<style>
+  #snowflakeContainer {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    display: none;
+  }
 
+  .snowflake {
+    position: fixed;
+    background-color: #CCC;
+    user-select: none;
+    z-index: 1000;
+    pointer-events: none;
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+  }
+</style>
+
+<div id="snowflakeContainer">
+  <span class="snowflake"></span>
+</div>
+
+<script>
+  // Array to store our Snowflake objects
+  var snowflakes = [];
+
+  // Global variables to store our browser's window size
+  var browserWidth;
+  var browserHeight;
+
+  // Specify the number of snowflakes you want visible
+  var numberOfSnowflakes = 50;
+
+  // Flag to reset the position of the snowflakes
+  var resetPosition = false;
+
+  // Handle accessibility
+  var enableAnimations = false;
+  var reduceMotionQuery = matchMedia("(prefers-reduced-motion)");
+
+  // Handle animation accessibility preferences 
+  function setAccessibilityState() {
+    if (reduceMotionQuery.matches) {
+      enableAnimations = false;
+    } else { 
+      enableAnimations = true;
+    }
+  }
+  setAccessibilityState();
+
+  reduceMotionQuery.addListener(setAccessibilityState);
+
+  //
+  // It all starts here...
+  //
+  function setup() {
+    if (enableAnimations) {
+      window.addEventListener("DOMContentLoaded", generateSnowflakes, false);
+      window.addEventListener("resize", setResetFlag, false);
+    }
+  }
+  setup();
+
+  //
+  // Constructor for our Snowflake object
+  //
+  function Snowflake(element, speed, xPos, yPos) {
+    // set initial snowflake properties
+    this.element = element;
+    this.speed = speed;
+    this.xPos = xPos;
+    this.yPos = yPos;
+    this.scale = 1;
+
+    // declare variables used for snowflake's motion
+    this.counter = 0;
+    this.sign = Math.random() < 0.5 ? 1 : -1;
+
+    // setting an initial opacity and size for our snowflake
+    this.element.style.opacity = (.1 + Math.random()) / 3;
+  }
+
+  //
+  // The function responsible for actually moving our snowflake
+  //
+  Snowflake.prototype.update = function () {
+    // using some trigonometry to determine our x and y position
+    this.counter += this.speed / 5000;
+    this.xPos += this.sign * this.speed * Math.cos(this.counter) / 40;
+    this.yPos += Math.sin(this.counter) / 40 + this.speed / 30;
+    this.scale = .5 + Math.abs(10 * Math.cos(this.counter) / 20);
+
+    // setting our snowflake's position
+    setTransform(Math.round(this.xPos), Math.round(this.yPos), this.scale, this.element);
+
+    // if snowflake goes below the browser window, move it back to the top
+    if (this.yPos > browserHeight) {
+      this.yPos = -50;
+    }
+  }
+
+  //
+  // A performant way to set your snowflake's position and size
+  //
+  function setTransform(xPos, yPos, scale, el) {
+    el.style.transform = `translate3d(${xPos}px, ${yPos}px, 0) scale(${scale}, ${scale})`;
+  }
+
+  //
+  // The function responsible for creating the snowflake
+  //
+  function generateSnowflakes() {
+
+    // get our snowflake element from the DOM and store it
+    var originalSnowflake = document.querySelector(".snowflake");
+
+    // access our snowflake element's parent container
+    var snowflakeContainer = originalSnowflake.parentNode;
+    snowflakeContainer.style.display = "block";
+
+    // get our browser's size
+    browserWidth = document.documentElement.clientWidth;
+    browserHeight = document.documentElement.clientHeight;
+
+    // create each individual snowflake
+    for (var i = 0; i < numberOfSnowflakes; i++) {
+
+      // clone our original snowflake and add it to snowflakeContainer
+      var snowflakeClone = originalSnowflake.cloneNode(true);
+      snowflakeContainer.appendChild(snowflakeClone);
+
+      // set our snowflake's initial position and related properties
+      var initialXPos = getPosition(50, browserWidth);
+      var initialYPos = getPosition(50, browserHeight);
+      var speed = 5 + Math.random() * 40;
+
+      // create our Snowflake object
+      var snowflakeObject = new Snowflake(snowflakeClone,
+        speed,
+        initialXPos,
+        initialYPos);
+      snowflakes.push(snowflakeObject);
+    }
+
+    // remove the original snowflake because we no longer need it visible
+    snowflakeContainer.removeChild(originalSnowflake);
+
+    moveSnowflakes();
+  }
+
+  //
+  // Responsible for moving each snowflake by calling its update function
+  //
+  function moveSnowflakes() {
+
+    if (enableAnimations) {
+      for (var i = 0; i < snowflakes.length; i++) {
+        var snowflake = snowflakes[i];
+        snowflake.update();
+      }      
+    }
+
+    // Reset the position of all the snowflakes to a new value
+    if (resetPosition) {
+      browserWidth = document.documentElement.clientWidth;
+      browserHeight = document.documentElement.clientHeight;
+
+      for (var i = 0; i < snowflakes.length; i++) {
+        var snowflake = snowflakes[i];
+
+        snowflake.xPos = getPosition(50, browserWidth);
+        snowflake.yPos = getPosition(50, browserHeight);
+      }
+
+      resetPosition = false;
+    }
+
+    requestAnimationFrame(moveSnowflakes);
+  }
+
+  //
+  // This function returns a number between (maximum - offset) and (maximum + offset)
+  //
+  function getPosition(offset, size) {
+    return Math.round(-1 * offset + Math.random() * (size + 2 * offset));
+  }
+
+  //
+  // Trigger a reset of all the snowflakes' positions
+  //
+  function setResetFlag(e) {
+    resetPosition = true;
+  }
+</script>
+
+<center>
+<p>
+<a href="accountpage.html">
+<img border="15"
+<img src="header.jpg">
+</a>
+</p>
+
+<center>
+<p>
+<a href="addrepo.html">
+<img border="15"
+<img src="addmyrepo.png">
+</a>
+</p>
+
+<center>
+<!-- hitwebcounter Code START -->
+<a href="https://bhornbeck-ux.github.io/BenjaminAppInstaller/" target="_blank">
+<img src="https://hitwebcounter.com/counter/counter.php?page=7726036&style=0025&nbdigits=9&type=page&initCount=0" title="Total Website Hits" Alt="Web Hits"   border="0" /></a>
+
+
+  <title>Benjamin Hornbeck’s App Installer</title>
+<style>
+body {
+  background-color: #000000;
+}
+div.logo {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 5rem;
+  text-align: center;
+}
+div.heading {
+  font-family: HelveticaNeue-Bold;
+  text-align: center;
+  color: white;
+}
+.button {
+  background-color: #ebebeb;
+  border: 8px solid;
+  font-family: HelveticaNeue-Bold;
+  border-color: #ff0000;
+  color: black;
+  border-radius: 12px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 45px; 
+  size:40px;
+  width: 250px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 0px 20px 0 rgba(0,0,0,0.19);
+  -webkit-appearance: automatic;
+}
+@media (prefers-color-scheme: automatic) {
+.button {
+background-color: #3D3D3D;
+color: #FFFFFF;
+box-shadow: 0 8px 16px 0 rgba(255,255,255,0.2), 0 0px 20px 0 rgba(255,255,255,0.19);
+}
+body {
+background-color: #ffffff;
+}
+div.heading {
+  font-family: HelveticaNeue-Bold;
+  text-align: center;
+  color: white;
+}
+a {
+filter: invert(100%);
+}
+</style>
+</head>
+<body>
+<div class="heading">
+
+<center>
+<p style="font-size:75px">Benjamin Hornbecks App Installer</p>
+
+
+            
+      
+
+                                  </tr>
+                                </tbody>
+                              </table>
+                              <table border="0" cellpadding="5" cellspacing="0" width="100%">
+                                <tbody>
+                                  <tr>
+                                    <td colspan="2" valign="middle" style="border:0;color:#9E9E9E;font-family: Verdana;font-size:35px;line-height:125%;text-align:center">
+
+<center>
+<p style="font-size:70px">Have A Merry Christmas &#9924;</p>
+
+<center>
+ <p style="margin-top: 60px;">&copy; 2020 <span class="il">Benjamin Hornbeck</span></p>
+
+ <style>
+    .btn {
+    background-color: #FFFFFF;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 50px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 50px;
+}
+    </style>
+  </head>
+    <body>
+
+<center><a href="itms-services://?action=download-manifest&amp;url=https://bhornbeck-ux.github.io/BenjaminAppInstaller/install.plist" id="o"><button class="btn"><i class="fa fa-download"></i>Tap Here To Install Spotify++</button></a></center>
+
+	<center><a href="itms-services://?action=download-manifest&url=https://www.iphonecake.com/app/appcake.plist" id="o"><button class="btn"><i class="fa fa-download"></i>Tap Here To Install AppCake</button></a></center>
+
+<center><a href="https://bhornbeck-ux.github.io/BenjaminAppInstaller/AppInst.mobileconfig" id="o"><button class="btn"><i class="fa fa-download"></i>Tap Here To Install My WebClip</button></a></center>
+
+<center><a href="itms-services://?action=download-manifest&amp;url=https://bhornbeck-ux.github.io/BenjaminAppInstaller/ZiniTevi.plist" id="o"><button class="btn"><i class="fa fa-download"></i>Tap Here To Install ZiniTevi</button></a></center>
+
+<center><a href="itms-services://?action=download-manifest&amp;url=https://TutuBox.io/plists/TutuBox/TutuBoxLodging.plist" id="o"><button class="btn"><i class="fa fa-download"></i>Tap Here To Install TutuBox</button></a></center>
+<footer>TutuBox Gets Signed On Saturday, December 19, 2020</footer>
+
+<center><a href="itms-services://?action=download-manifest&url=%68%74%74%70%73%3A%2F%2F%61%70%70%77%65%6C%65%75%78%2E%63%6F%6D%2F%49%6E%73%74%61%6C%6C%2D%41%70%70%57%65%6C%65%75%78%2F%64%6F%77%6E%6C%6F%61%64%2E%70%68%70%3F%61%70%70%77%65%6C%65%75%78%3D%63%6F%6D%2E%61%70%70%77%65%6C%65%75%78%2E%66%72%65%65%2E%70%6C%69%73%74" id="o"><button class="btn"><i class="fa fa-download"></i>Tap Here To Install App Weleux</button></a></center>
+
+<center><a href="itms-services://?action=download-manifest&amp;url=https://bhornbeck-ux.github.io/BenjaminAppInstaller/manifestmediaboxhdsite1.plist" id="o"><button class="btn"><i class="fa fa-download"></i>Tap Here To Install MediaBox HD</button></a></center>
+
+<center><a href="itms-services://?action=download-manifest&amp;url=https://app.app-valley.vip/plists/158/install.plist" id="o"><button class="btn"><i class="fa fa-download"></i>Tap Here To Install Cercube 5</button></a></center>
+
+<center><a href="itms-services://?action=download-manifest&amp;url=https://bhornbeck-ux.github.io/BenjaminAppInstaller/ShowBox.plist" id="o"><button class="btn"><i class="fa fa-download"></i>Tap Here To Install Show Box Loca</button></a></center>
+
+<center><a href="itms-services://?action=download-manifest&url=https://jailbreaks.app/cdn/plists/Odyssey.plist" id="o"><button class="btn"><i class="fa fa-download"></i>Tap Here To Install Odyssey</button></a></center>
+
+<center><a href="itms-services://?action=download-manifest&amp;url=https://app.app-valley.vip/plists/1589/install.plist" id="o"><button class="btn"><i class="fa fa-download"></i>Tap Here To Install Chimera</button></a></center>
+
+<center><a href="itms-services://?action=download-manifest&amp;url=https://app.app-valley.vip/plists/1574/install.plist" id="o"><button class="btn"><i class="fa fa-download"></i>Tap Here To Install unc0ver</button></a></center>
+
+<center><a href="itms-services://?action=download-manifest&amp;url=https://app.app-valley.vip/plists/1657/install.plist" id="o"><button class="btn"><i class="fa fa-download"></i>Tap Here To Install Fortnite</button></a></center>
+
+<center><a href="itms-services://?action=download-manifest&amp;url=https://app.app-valley.vip/plists/17/install.plist" id="o"><button class="btn"><i class="fa fa-download"></i>Tap Here To Install YouTubeMusic++</button></a></center>
+
+<center><a href="itms-services://?action=download-manifest&amp;url=https://app.app-valley.vip/plists/193/install.plist" id="o"><button class="btn"><i class="fa fa-download"></i>Tap Here To Install Delta</button></a></center>
+
+<center><a href="itms-services://?action=download-manifest&amp;url=https://app.app-valley.vip/plists/1329/install.plist" id="o"><button class="btn"><i class="fa fa-download"></i>Tap Here To Install iPoGo</button></a></center>
+
+<center>
+<p class="text-white">&#57907; iOS 14.2 No Computer Jailbreak News &#57907;</a></p>
+
+
+<iframe width="815" height="615" src="https://www.youtube.com/embed/geeq-LXTILo">
+
+</body>
+</script>
+</html>
