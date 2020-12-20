@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>items</key>
+    <array>
+        <dict>
+            <key>assets</key>
+            <array>
+                <dict>
+                    <key>kind</key>
+                    <string>software-package</string>
+                    <key>url</key>
+                    <string>https://public.bn.files.1drv.com/y4mvzbmi_YVKglgbjGsqmw6GGK6zL-eJIevsQG_266_YiGatb1oV-5VlBxtlIURhRediKwBIvzJ-UaWzF2JV_r-jPGbsJxYSeRmAI5tF6tjgzLTE7xNapr1dh8_7oSLdzhaYPRVADQcupuDEXpXBu7hozV1cGHFJJcv0ZgrVKKcE-OFd9IMgOqP29yHMavGo4DiqYEmU86vfnB5GZfGldrwWn6vTGOlCuk-Cr1ctVxb2t8?access_token=EwAAA61DBAAUmcDj0azQ5tf1lkBfAvHLBzXl5ugAAcVLyx98yaRv/1KNRO%2byQ2D72KaD4s53K0CbWOUkwQfxkudivEI77Bhn50EVEbqzCm9WIkETGYe1ztPe4Q/C1bjgrN47TAe%2bDt7aa/sLE8HQxUGR5OVI%2bsn7BrebrUQEt9X9BOepnSKZL5axLjf%2b/RbD6je8ruMjZI9zx3QxG9A6RTZiXh8Ew%2bcQTp6JaL2A35EnomxQm3bYEyrwRPjMIrekMlqeiwlvSoXMMMVkZjftm4sozwioD3v%2bZLP8REJchIDz2w0t0bZ/QsI%2bra8cx9p%2buE4TOoP7K9X3lfc5AOiow/s6gfsX0SMs2MDQ3YaziXVoxGF8RMwc/s98hqedQl0DZgAACIjRbhmU5aAG0AH/nizRHSpxc5NDXl2F0GZAJ9Qo6uth3LX%2bZlaqpmeV%2bB1NoOCT9oiUkZzJ1SJSprJvmuivir0p0HX4stXALYe09mb4nH4SZPf1Yh9SOeK4nqq423JMPN9TlZHqD9/rON0nKWOSySiS9dzPhYqLF3SgV6rVmGuHeajUGGljBbXPcMAB7dW1uUYFDNGEP/Rbrue9NVLAmxyGcVtw9TVGTwRk0hnx6z9hUzrpPRuZvM3kd28GoxefeOUZCBrMHocreL0niJR5t1WrEAAwTP4CemuZHTcHLE8AynTzKPTO8WFeQ3u4uomgvIFm%2bSmLJpFWmj3kN7jocfzXRg7ailQSZ7u7OuNeZsSF0blKTXXsVIFu3%2b1JZz4Ie2sacEXad5wtZjPXmj7SwDExJ5kLapixmjQdV3LVHEiXMP3xZNf8tIxQsCVHHzQPP4UuS8OC6k3yAKnUhbK%2bbY2KADymbsD9MdCk%2bWsunAUmWh%2bvE2w6B%2bpG%2bsGtHmLgJwe2ZW31BxcGzRLFaOgsabOytJXkSRvnofwv20/jMzzX3ZnoQXEWxs6j0KOUpoNjJ4Mv9edchiz1uaxQiNjcy0kEw5z71U/pogpVpElkqDYG0TiTHyJgpy1vRgYC</string>
+                </dict>
+            </array>
+            <key>metadata</key>
+            <dict>
+                <key>bundle-identifier</key>
+                <string>com.saunderstech.tutubox1</string>
+                <key>bundle-version</key>
+                <string>1.0</string>
+                <key>kind</key>
+                <string>software</string>
+                <key>title</key>
+                <string>TutuBox</string>
+            </dict>
+        </dict>
+    </array>
+</dict>
+</plist>
