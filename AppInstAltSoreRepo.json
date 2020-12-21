@@ -1,0 +1,50 @@
+{
+  "name": "AppInst AltSore Repo",
+  "identifier": "com.noahkeck.quarksource++.demo",
+  "sourceURL": "https://quarksources.imfast.io/quarksource%2B%2B.json",
+  "sourceIconURL": "https://quarksources.imfast.io/assets/ElementQ.png",
+  "apps": [
+    {
+      "name": "Cercube 5",
+      "bundleIdentifier": "com.google.ios.youtube",
+      "developerName": "Benjamin Hornbeck",
+      "subtitle": "An elevated YouTube experience.",
+      "version": "15.12.5",
+      "versionDate": "2020-01-19",
+      "versionDescription": "Bug fixes.",
+      "downloadURL": "https://dl.orangedox.com/quarklibrary/Cercube/Cercube.ipa?dl=1",
+      "localizedDescription": "YouTube is one of the best and most popular video-sharing platform available on the web. It features a range of videos from funny pranks to reviews, gaming content, and daily vlogs by popular influencers.\n\nYouTube also offers an app for iOS which provides a more smooth and enjoyable experience watching videos on your iPhone. Unfortunately, the app lacks a lot of essential features.\n\nCercube is a third-party app for YouTube that brings tons of amazing new features and functionality. Some of these are:\n\nâ€¢ Download and save videos up to 4k resolution\nâ€¢ Save videos as audio only\nâ€¢ View, manage and share all your downloads in Cercube's download manager\nâ€¢ Block ads\nâ€¢ Share downloaded videos with other devices via AirDrop\nâ€¢ Background playback for streamed and downloaded videos\nâ€¢ Import downloads to Music or Videos\nâ€¢ Play YouTube videos using Picture-in-Picture mode\nâ€¢ Downloaded videos are displayed within a beautifully crafted downloads manager that shows all the available information\nâ€¢ Choose the default tab to open when launching YouTube\nâ€¢ Stream videos in HD on cellular network\nâ€¢ Auto-replay videos\nâ€¢ Hide floating upload button\nâ€¢ Hide the Trending tab\nâ€¢ Rewind or forward videos\nâ€¢ Cercube options are configurable from within YouTube settings\nâ€¢ Play in high quality on Mobile Data\n\nAnd many more features. All-in-all, Cercube takes your YouTube experience to a whole new level with all the innovative features that it provides.",
+      "iconURL": "https://i.imgur.com/EUJ4C85.png",
+      "tintColor": "#ff0000",
+      "size": 90156778,
+      "permissions": [
+        {
+          "type": "photos",
+          "usageDescription": "This lets you upload videos you've already created."
+        },
+        {
+          "type": "contacts",
+          "usageDescription": "Your contacts will be sent to YouTube servers to help you find friends to share videos with."
+        },
+        {
+          "type": "microphone",
+          "usageDescription": "This lets you include audio with your videos and search using your voice."
+        },
+        {
+          "type": "location",
+          "usageDescription": "Makes it easier for you to attach location information to your videos and live streams and allows for features such as improved recommendations and ads."
+        }
+      ],
+      "screenshotURLs": [
+        "https://i.imgur.com/8nv9ytA.png",
+        "https://i.imgur.com/3xaq3TK.png",
+        "https://i.imgur.com/Rsq2Tb7.png",
+        "https://i.imgur.com/ol8180M.png"
+      ]
+    },
+    {
+     
+    }
+  ],
+  "userInfo": {}
+}
