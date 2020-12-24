@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>assets</key>
+			<array>
+				<dict>
+					<key>kind</key>
+					<string>software-package</string>
+					<key>url</key>
+					<string>https://public.bn.files.1drv.com/y4mlWjrUZlAjMER5GKVAC0Xwnp-t8bWwt9fWjwlETgPUPP45f-oUk_Jl0lOJxcMfFfKr-styIhA2YiWElTXVYRT_zd7McGuEU_75mBN_XkufGSehIB6DSKzQA30BwCmwCT5bBwAIOA_1qAw97qmB3aFI5_uSbtx6sAb9BzObNdynhcMWzrFdW5Lql1Ibet31CsJ7JKscYHAfr-1CqsOOGHFUGCWzxdF9SBS3NQbvhJ35e8?access_token=EwAAA61DBAAUmcDj0azQ5tf1lkBfAvHLBzXl5ugAAThKGHowvp0ymmTgX8TcJCrpjF3aHNb2XmcwTa0WyAudgZf1PY4JsN56kbfDbNxB/hlURJxWh4ni3fnyOO33w5c4uf5Cl%2bVM18ZWq9cUDlNblRV8e0166kYExeiop2SczHJ%2bVuJdvz1L3g86rscG1F538rYhRX5ojtuJVhQ7ppJH9J1UPMmAGbKV4Jls8NP3e9O3%2bjnlniUgc2L5C7HX%2bWeousvY%2bBBb365cunWqHW1JdaejYZP3LUOPURmdGj%2bGf2GjLR%2bZPbLqsPPAQRakxrZhw8PzLuU7KjIlChw%2blJqUXjsePKEb98j3nx37VvyesffNecuVzi1MDJvHQ9LJ2BkDZgAACMHujNOkoe%2br0AFVQuIsUaIJHuW9A8XwZZviF6/7TddN%2bvYQm5IW/cjwCGJd14EZx5jGCPwSEEGYbUUHOK4mouvM17eGx6cdO4AoJXbaPz4hotsXnfP7Lgx8x%2b8v9hz0ENCEXeYvup41bA4mJ8JF0YP9TO09pX3SLMmhyhlV1le3Nr2xANl3DvpEpcBgVlbxC2GhnyWtJQfrkuzsUIqglBz6gOjWXlqQuEiPzIg3ym1nWXnWDlV940r45DVKxWNCArJF3RuoCaDkGviYgQRw3DeAXTGqdJSMqJPQ5AdE40FHY2h0g3KgKT/4YlxJfsafEzoELdStRc7p2ZV/iensx%2b%2b7T6pRs02l7eEfP3mFyVWnr2qBXnk5t9Rvm55s/sJg3sXmia30fBe%2bbnUXL3VCToWOGLO6G7SUovpz/VF1jDBoskiDAx3wsFp821jIEAgeLxdvKsv%2bn3EKV3mtNKq5NaLuNJLDHL3De2W9nvYuN1FV068GPvKagzVp29GwJUHDMdASHOBPKUHNA8PLWEhHhy8TJIydqsCjcM9PxbOZDaRkVwDUaONJVFrz5a0jDk7Y6xsN/QdNy8K8EpFgc0PYD3tNJKMETh66qPRbVfo0MCMaaye3sdfgYmaCWwYC</string>
+				</dict>
+			</array>
+			<key>metadata</key>
+			<dict>
+				<key>bundle-identifier</key>
+				<string>com.mojang.minecraftpe</string>
+				<key>bundle-version</key>
+				<string>1.16.201</string>
+				<key>kind</key>
+				<string>software</string>
+				<key>title</key>
+				<string>Minecraft</string>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>
