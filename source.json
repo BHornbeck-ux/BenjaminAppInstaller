@@ -4,17 +4,17 @@
     "sourceURL": "https://bhornbeck-ux.github.io/BenjaminAppInstaller/source.json",
     "apps": [
         {
-            "name": "AppInstaller",
+            "name": "E-Sign",
             "bundleIdentifier": "rl.esign.YYYSign.co",
             "developerName": "Benjamin Hornbeck",
-            "version": "3.0",
+            "version": "2.0.0",
             "versionDate": "2020-12-13T10:00:00+08:00",
-            "versionDescription": "My Webclip",
-            "downloadURL": "https://raw.githubusercontent.com/BHornbeck-ux/BenjaminAppInstaller/main/AppInstWebclip.mobileconfig",
-            "localizedDescription": "Test",
-            "iconURL": "https://raw.githubusercontent.com/BHornbeck-ux/BenjaminAppInstaller/main/Icon999.png",
+            "versionDescription": "ESign In English",
+            "downloadURL": "https://www.lanzoui.com/iP8Usjbesxa",
+            "localizedDescription": "ESign In English",
+            "iconURL": "https://raw.githubusercontent.com/BHornbeck-ux/BenjaminAppInstaller/main/3A6EA4E6-326B-40A0-9888-045079A717AF.jpeg",
             "tintColor": "018084",
-            "size": 2475295
+            "size": 39
         },
     ]
 }
