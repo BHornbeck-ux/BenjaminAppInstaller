@@ -1,0 +1,20 @@
+{
+    "name": "Benjamin Hornbeck",
+    "identifier": "xyz.yyyue.esign",
+    "sourceURL": "https://bhornbeck-ux.github.io/BenjaminAppInstaller/source.json",
+    "apps": [
+        {
+            "name": "è½»æ¾ç­¾-ESign",
+            "bundleIdentifier": "rl.esign.YYYSign.co",
+            "developerName": "Benjamin Hornbeck",
+            "version": "2.0.0",
+            "versionDate": "2020-12-13T10:00:00+08:00",
+            "versionDescription": "Description",
+            "downloadURL": "https://www.lanzoui.com/iP8Usjbesxa",
+            "localizedDescription": "Test",
+            "iconURL": "https://esign.yyyue.xyz/ESignLogo200.png",
+            "tintColor": "018084",
+            "size": 2475295
+        },
+    ]
+}
