@@ -26,6 +26,77 @@
   }
 </style>
 
+<style>
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+
+.switch input { 
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: #FFFFFF;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: #2196F3;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+  background-image: linear-gradient(to right,        #00dbde 0%, #fc00ff 100%);
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+</style>
+</head>
+<body>
+
+<center>
+<label class="switch">
+  <input type="checkbox" checked>
+  <span class="slider round"></span>
+</label>
+
 <center>
 <p>
 <img border="0"
@@ -250,17 +321,23 @@ filter: invert(100%);
 
 <center>
 <p>
+<font size="10" color="white">&#57907; Apple ScreenSavers &#57907;
+</font>
+</p>
+
+<center><a href="https://raw.githubusercontent.com/BHornbeck-ux/BenjaminAppInstaller/main/AppleScreenSaver2019.mp4" id="o"><button class="btn"><i class="fa fa-download"></i>Apple Saver 2019</button></a></center> 
+
+<center><a href="https://raw.githubusercontent.com/BHornbeck-ux/BenjaminAppInstaller/main/AppleScreenSaver2018.mp4" id="o"><button class="btn"><i class="fa fa-download"></i>Apple Saver 2018</button></a></center> 
+
+<center><a href="https://raw.githubusercontent.com/BHornbeck-ux/BenjaminAppInstaller/main/AppleScreenSaver2017.mp4" id="o"><button class="btn"><i class="fa fa-download"></i>Apple Saver 2017</button></a></center> 
+
+<center>
+<p>
 <font size="50" color="white">&#57907; BETAS &#57907;
 </font>
 </p>
 
-<center>
-<p>
-<font size="50" color="white">&#57907; This Test Websites Owner Is Thomas Hornbeck &#57907;
-</font>
-</p>
-
-<center><a href="https://bhornbeck-ux.github.io/code/index.html" id="o"><button class="btn"><i class="fa fa-download"></i>PRO-INSTALLER BETA</button></a></center> 
+<center><a href="https://bhornbeck-ux.github.io/code/index.html" id="o"><button class="btn"><i class="fa fa-download"></i>PRO-INSTALLER Website BETA</button></a></center> 
 
 <center><a href="https://raw.githubusercontent.com/BHornbeck-ux/BenjaminAppInstaller/main/AppInstTerm.deb" id="o"><button class="btn"><i class="fa fa-download"></i>Download AppInstTerm BETA</button></a></center> 
 
@@ -284,7 +361,7 @@ filter: invert(100%);
 <a href="https://bhornbeck-ux.github.io/BenjaminAppInstaller/"
 <button class="reloadbtn success">RELOAD PAGE</button>
 
-<iframe width="815" height="615" src="https://www.youtube.com/embed/w01C6XyTexk"> 
+<iframe width="825" height="625" src="https://www.youtube.com/embed/3VIvEoUPLHs">
 
 </body>
 </script>
