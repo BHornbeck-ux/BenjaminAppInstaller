@@ -4,7 +4,7 @@ body{
   font-family: "montserrat";
   background-image: linear-gradient(125deg,#2c3e50, #E71A00);
   background-size: 400% 400%;
-  animation: bganimation 15s infinite;
+  animation: bganimation 2s infinite;
 }
 .text{
   color: white;
