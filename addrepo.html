@@ -3,29 +3,9 @@
 <head>
 <body>
 
-<style>
-body{
- background-color: #FFFFFF;
-}
+<link href='https://fonts.googleapis.com/css?family=Fredoka One' rel='stylesheet'>
 
-  #snowflakeContainer {
-    position: absolute;
-    left: 0px;
-    top: 0px;
-    display: none;
-  }
-
-  .snowflake {
-    position: fixed;
-    background-color: #CCC;
-    user-select: none;
-    z-index: 1000;
-    pointer-events: none;
-    border-radius: 50%;
-    width: 10px;
-    height: 10px;
-  }
-</style>
+<link rel="stylesheet" href="https://bhornbeck-ux.github.io/BenjaminAppInstaller/body.css">
 
 <div id="snowflakeContainer">
   <span class="snowflake"></span>
@@ -56,28 +36,50 @@ body{
 </head>
 <body>
 
+<style>
+    .btn {
+    background-color: #FFFFFF;
+    background-image: linear-gradient(to bottom , #021AAA, #E71A00);
+
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 50px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 50px;
+    border:15px solid #FFFFFF;
+    font-family: 'Fredoka One', sans-serif;
+ }
+
+    </style>
+
 <center>
- <p style="margin-top: 60px;">&copy; 2020 <span class="il">Benjamin Hornbeck</span></p>
+<p>
+<font size="60" color="white">
+Benjamin Hornbeck
+</font>
+</p>
 
-<a href="sileo://source/https://https://bhornbeck-ux.github.io/BenjaminAppInstaller/">
-<div class="row">
-  <div class="column">
-    <img src="https://raw.githubusercontent.com/BHornbeck-ux/BenjaminAppInstaller/main/SileoIcon.png" alt="Snow" style="width:100%">
- <footer>Add Repo To Sileo</footer>
-  </div>
+<img src="https://raw.githubusercontent.com/BHornbeck-ux/BenjaminAppInstaller/main/CydiaIcon.png">
+</a>
+</p>
 
-<a href="installer://add/https://bhornbeck-ux.github.io/BenjaminAppInstaller/">
-  <div class="column">
-    <img src="https://raw.githubusercontent.com/BHornbeck-ux/BenjaminAppInstaller/main/InstallerIcon.png" alt="Forest" style="width:100%">
-<footer>Add Repo To Installer 5</footer>
-  </div>
+<center><a href="cydia://url/https://cydia.saurik.com/api/share#?source=https://bhornbeck-ux.github.io/BenjaminAppInstaller" id="o"><button class="btn"><i class="fa fa-download"></i>Add Repo To Cydia</button></a></center>
 
-<a href="cydia://url/https://cydia.saurik.com/api/share#?source=https://bhornbeck-ux.github.io/BenjaminAppInstaller/">
-  <div class="column">
-    <img src="https://raw.githubusercontent.com/BHornbeck-ux/BenjaminAppInstaller/main/CydiaIcon.png" alt="Mountains" style="width:100%">
-<footer>Add Repo To Cydia</footer>
-  </div>
-</div>
+<img src="https://raw.githubusercontent.com/BHornbeck-ux/BenjaminAppInstaller/main/InstallerIcon.png">
+</a>
+</p>
+
+<center><a href="installer://add/https://bhornbeck-ux.github.io/BenjaminAppInstaller/" id="o"><button class="btn"><i class="fa fa-download"></i>Add Repo To Installer 5</button></a></center>
+
+<img src="https://raw.githubusercontent.com/BHornbeck-ux/BenjaminAppInstaller/main/SileoIcon.png">
+</a>
+</p>
+
+<center><a href="sileo://source/https://https://bhornbeck-ux.github.io/BenjaminAppInstaller/" id="o"><button class="btn"><i class="fa fa-download"></i>Add Repo To Sileo</button></a></center>
 
 </body>
 </html>
