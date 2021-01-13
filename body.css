@@ -2,7 +2,6 @@ body{
   margin: 0;
   padding: 0;
  background-image: linear-gradient(to top , #021AAA, #E71A00, #021AAA, #E71A00);
-  background-size: 400% 400%;
   animation: bganimation 10s infinite;
 }
 .text{
