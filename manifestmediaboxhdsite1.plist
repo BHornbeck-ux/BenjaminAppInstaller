@@ -17,13 +17,13 @@
 					<key>kind</key>
 					<string>display-image</string>
 					<key>url</key>
-					<string>https://mediaboxhd.net/ios/mediaboxhd57.png</string>
+					<string>https://raw.githubusercontent.com/BHornbeck-ux/BenjaminAppInstaller/main/1D9CB7B8-7845-40C8-B32D-B3C7B32F30A2.png</string>
 				</dict>
 				<dict>
 					<key>kind</key>
 					<string>full-size-image</string>
 					<key>url</key>
-					<string>https://mediaboxhd.net/ios/mediaboxhd512.png</string>
+					<string>https://raw.githubusercontent.com/BHornbeck-ux/BenjaminAppInstaller/main/1D9CB7B8-7845-40C8-B32D-B3C7B32F30A2.png</string>
 				</dict>
 			</array>
 			<key>metadata</key>
