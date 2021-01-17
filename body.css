@@ -2,20 +2,19 @@ body {
 background-color: #000000;
 background-image: linear-gradient(to left, #1C6AFE, #9402F3, #EF337B);
 }
+.btn {
+background-color: #000000;
+background-image: linear-gradient(to top, #1C6AFE, #9402F3, #EF337B);
 
-    .btn {
-    background-color: #000000;
-    background-image: linear-gradient(to top, #1C6AFE, #9402F3, #EF337B);
-
-    color: black;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 50px;
-    margin: 4px 2px;
-    cursor: pointer;
-    border-radius: 50px;
-    border:15px solid #000000;
-    font-family: 'Jockey One', sans-serif;
+color: black;
+padding: 15px 32px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 50px;
+margin: 4px 2px;
+cursor: pointer;
+border-radius: 50px;
+border:15px solid #000000;
+font-family: 'Jockey One', sans-serif;
  }
