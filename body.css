@@ -5,6 +5,7 @@ background-image: linear-gradient(to right, #50AB32, #FDA80C, #F77008, #DD2C2D, 
 .btn {
 background-color: #000000;
 background-image: linear-gradient(to top, #50AB32, #FDA80C, #F77008, #DD2C2D, #832E85, #118BD7);
+
 color: black;
 padding: 15px 32px;
 text-align: center;
@@ -15,5 +16,5 @@ margin: 4px 2px;
 cursor: pointer;
 border-radius: 50px;
 border:15px solid #000000;
-font-family: 'Imbue', serif;
+font-family: 'Balsamiq Sans', cursive;
 }
