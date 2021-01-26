@@ -18,6 +18,36 @@
 <link rel="preconnect" href="https://fonts.gstatic.com"> 
 <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
 
+    <link rel="stylesheet" href="https://raw.githubusercontent.com/BHornbeck-ux/new/main/test.css">
+  </head>
+  <body>
+    <div class="content">
+      <div class="images">
+   <center>     <img src="https://raw.githubusercontent.com/BHornbeck-ux/new/main/6B848FC2-84BC-4836-A93A-E523E7B84B9F.png">
+    <center>   <img src="https://raw.githubusercontent.com/BHornbeck-ux/new/main/24C0426D-3F3C-4396-84B8-C239EA137018.png">
+      <center> <img src="https://raw.githubusercontent.com/BHornbeck-ux/new/main/0DA3CF93-4FE5-4231-A48B-B7FCEF0BB968.png">
+   <center>     <img src="https://raw.githubusercontent.com/BHornbeck-ux/new/main/1148DC4C-C416-4057-A240-6FC327A5FF24.png">
+      <center>   <img src="https://raw.githubusercontent.com/BHornbeck-ux/new/main/E7A73F68-1122-4C94-83D9-2D99AA390603.png">
+      <center>   <img src="https://raw.githubusercontent.com/BHornbeck-ux/new/main/514002E1-D37A-4A26-930A-DC4766CABA09.png">
+ <center>   <img src="https://raw.githubusercontent.com/BHornbeck-ux/new/main/40F23F03-C1D5-4728-A576-C0A44C14A5BA.png">
+      </div>
+</div>
+<script>
+      var indexValue = 0;
+      function slideShow(){
+        setTimeout(slideShow, 2500);
+        var x;
+        const img = document.querySelectorAll("img");
+        for(x = 0; x < img.length; x++){
+          img[x].style.display = "none";
+        }
+        indexValue++;
+        if(indexValue > img.length){indexValue = 1}
+        img[indexValue -1].style.display = "block";
+      }
+      slideShow();
+    </script>
+
 <style>
   #snowflakeContainer {
     position: absolute;
@@ -102,11 +132,6 @@ input:checked + .slider:before {
 </style>
 </head>
 <body>
-
-<center>
-<img src="https://raw.githubusercontent.com/BHornbeck-ux/new/main/6B848FC2-84BC-4836-A93A-E523E7B84B9F.png">
-</a>
-</p>
 
 <center>
 <!-- hitwebcounter Code START -->
