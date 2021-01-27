@@ -1,10 +1,10 @@
 body {
 background-color: #000000;
-background-image: linear-gradient(to right, #62001C, #313792, #9A0AFF);
+background-image: linear-gradient(to right, #7439B5, #0743F1, #4BCD89);
 }
 .btn {
 background-color: #000000;
-background-image: linear-gradient(to top, #62001C, #313792, #9A0AFF);
+background-image: linear-gradient(to top, #7439B5, #0743F1, #4BCD89);
 
 color: black;
 padding: 15px 32px;
