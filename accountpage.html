@@ -1,183 +1,82 @@
 <!DOCTYPE html>
 <html>
 <head>
-<link rel="icon" href="https://raw.githubusercontent.com/BHornbeck-ux/BenjaminAppInstaller/main/06EA5C03-63C9-488A-B790-B5571DCA4792.png" type="image/png" sizes="16x16">
-
-<link rel="apple-touch-icon" href="/https://raw.githubusercontent.com/BHornbeck-ux/BenjaminAppInstaller/main/06EA5C03-63C9-488A-B790-B5571DCA4792.png" />
-<body>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 <link rel="stylesheet" href="https://bhornbeck-ux.github.io/BenjaminAppInstaller/body.css">
 
- <title>Benjamin Hornbeck’s Account Page</title>
-<style>
-div.logo {
-  position: absolute;
- 
-}
-div.heading {
-  font-family: HelveticaNeue-Bold;
-  text-align: center;
-  color: white;
-}
-.button {
-  background-color: #ebebeb;
-  border: 8px solid;
-  font-family: HelveticaNeue-Bold;
-  border-color: #ff0000;
-  color: black;
-  border-radius: 12px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 45px; 
-  size:40px;
-  width: 250px;
-  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 0px 20px 0 rgba(0,0,0,0.19);
-  -webkit-appearance: automatic;
-}
-@media (prefers-color-scheme: automatic) {
-.button {
-background-color: #3D3D3D;
-color: #FFFFFF;
-box-shadow: 0 8px 16px 0 rgba(255,255,255,0.2), 0 0px 20px 0 rgba(255,255,255,0.19);
-}
-body {
-background-color: #ffffff;
-}
-div.heading {
-  font-family: HelveticaNeue-Bold;
-  text-align: center;
-  color: white;
-}
-a {
-filter: invert(100%);
-}
-</style>
+<title>AppInstaller iOS Account Page</title>
+
 </head>
 <body>
-<div class="heading">
+
+<style> 
+
+</style>
+
+<link rel="stylesheet" href="https://bhornbeck-ux.github.io/BenjaminAppInstaller/body.css">
+
+<link rel="preconnect" href="https://fonts.gstatic.com"> 
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://raw.githubusercontent.com/BHornbeck-ux/new/main/test.css">
+  </head>
+  <body>
+    <div class="content">
+      <div class="images">
+      <center>   <img src="https://raw.githubusercontent.com/BHornbeck-ux/BenjaminAppInstaller/main/E4167752-C28B-4FD5-A6ED-71E1623BB960.png">
+ <center>   <img src="https://raw.githubusercontent.com/BHornbeck-ux/BenjaminAppInstaller/main/IMG_0015-2.png">
+      </div>
+</div>
+<script>
+      var indexValue = 0;
+      function slideShow(){
+        setTimeout(slideShow, 2500);
+        var x;
+        const img = document.querySelectorAll("img");
+        for(x = 0; x < img.length; x++){
+          img[x].style.display = "none";
+        }
+        indexValue++;
+        if(indexValue > img.length){indexValue = 1}
+        img[indexValue -1].style.display = "block";
+      }
+      slideShow();
+    </script>
 
 <center>
 <p>
-<font size="60" color="black"> 
-Benjamin Hornbecks Account Page
-</font>
-</p>
-
-            
-      
-
-                                  </tr>
-                                </tbody>
-                              </table>
-                              <table border="0" cellpadding="5" cellspacing="0" width="100%">
-                                <tbody>
-                                  <tr>
-                                    <td colspan="2" valign="middle" style="border:0;color:#9E9E9E;font-family: Verdana;font-size:35px;line-height:125%;text-align:center">
-
-<center>
-<p>
-<font size="60" color="black"> 
-&copy; 2020-2021 Benjamin Hornbeck
-</font>
-</p>
-
-<center>
-<p>
-<font size="60" color="black"> 
-YouTube Channels
-</font>
-</p>
-
-<center>
-<p>
-<a href="https://m.youtube.com/channel/UCc1woSGLawFXsanfmGUnbAA">
-<img src="https://raw.githubusercontent.com/BHornbeck-ux/BenjaminAppInstaller/main/IMG_0015-2.png">
-</a>
-</p>
-
-<center>
-<p>
-<font size="60" color="black"> 
-Subscribe To Jork The Pork
-</font>
-</p>
-
-<center>
-<p>
-<a href="https://m.youtube.com/channel/UCYF_-HppTzr6srElHbsmZqg">
-<img src="https://raw.githubusercontent.com/BHornbeck-ux/BenjaminAppInstaller/main/IMG_0012-2.png">
-</a>
-</p>
-
-<center>
-<p>
-<font size="60" color="black"> 
-Subscribe To Me
-</font>
-</p>
-
-<center>
-<p>
-<font size="60" color="black"> 
-Twitter Accounts
+<font size="20" color="black">YouTube Channels
 </font>
 </p>
 
 
 <center>
-<p>
-<a href="https://mobile.twitter.com/PorkJork">
-<img src="https://raw.githubusercontent.com/BHornbeck-ux/BenjaminAppInstaller/main/IMG_0015-2.png">
-</a>
-</p>
+<a href="https://m.youtube.com/channel/UCYF_-HppTzr6srElHbsmZqg" id="o"><button class="icons"><i class="fa fa-youtube-play" style="font-size:16px;color:red"></i>Subscribe To Me</button></a>
+
+<center>
+<a href="https://m.youtube.com/channel/UCc1woSGLawFXsanfmGUnbAA" id="o"><button class="icons"><i class="fa fa-youtube-play" style="font-size:15px;color:red"></i>Subscribe To Jork The Pork</button></a>
 
 <center>
 <p>
-<font size="60" color="black"> 
-Follow Jork The Pork On Twitter
+<font size="20" color="black">Twitter Accounts
 </font>
 </p>
 
 <center>
-<p>
-<a href="https://mobile.twitter.com/BenjaminHornbe5">
-<img src="https://raw.githubusercontent.com/BHornbeck-ux/BenjaminAppInstaller/main/IMG_0012-2.png">
-</a>
-</p>
+<a href="https://mobile.twitter.com/BenjaminHornbe5" id="o"><button class="icons"><i class="fa fa-twitter" style="font-size:15px;color:#ffffff"></i>Follow Me</button></a>
 
 <center>
-<p>
-<font size="60" color="black"> 
-Follow Me On Twitter
-</font>
-</p>
-
-<center>
-<p>
-<a href="https://mobile.twitter.com/thomashornbeck0">
-<img src="https://raw.githubusercontent.com/BHornbeck-ux/BenjaminAppInstaller/main/IMG_0035-2-2.png">
-</a>
-</p>
-
-<center>
-<p>
-<font size="60" color="black"> 
-Follow Thomas Hornbeck On Twitter
-</font>
-</p>
-
-<a href="mailto:AppInstaller1@icloud.com?subject = Feedback&body = Message" style="color:black">For App Requests Email Me</a>
-
+<a href="https://mobile.twitter.com/PorkJork" id="o"><button class="icons"><i class="fa fa-twitter" style="font-size:15px;color:#ffffff"></i>Follow Jork The Pork</button></a>
 
 <style>
-.success {color: black; font-size: 50px; }
+.success {color: black; font-size: 20px; }
 </style>
 
 <center>
 <a href="https://bhornbeck-ux.github.io/BenjaminAppInstaller/"
 <button class="reloadbtn success">BACK TO APPINSTALLER iOS</button>
-                                    
+
 </body>
-</script>
-</html>
+</html> 
