@@ -1,10 +1,10 @@
 body {
 background-color: #000000;
-background-image: linear-gradient(to right, #81273A, #334085);
+background-image: linear-gradient(to right, #2276D8, #B52C57);
 }
 .btn {
 background-color: #000000;
-background-image: linear-gradient(to top, #81273A, #334085);
+background-image: linear-gradient(to top, #2276D8, #B52C57);
 
 color: black;
 padding: 15px 32px;
@@ -20,7 +20,7 @@ font-family: 'Roboto Mono', monospace;
 }
 .icons {
 background-color: #000000;
-background-image: linear-gradient(to top, #81273A, #334085);
+background-image: linear-gradient(to top, #2276D8, #B52C57);
 
 color: black;
 padding: 15px 32px;
