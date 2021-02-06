@@ -1,10 +1,34 @@
-body {
-background-color: #000000;
-background-image: linear-gradient(to right, #2276D8, #B52C57);
+ body {
+    background: linear-gradient(to left, #25c9bc, #4679c4, #9c00d7);
+    background-size: 600% 600%;
+    -webkit-animation: AnimationName 9s ease infinite;
+    -moz-animation: AnimationName 9s ease infinite;
+    -o-animation: AnimationName 9s ease infinite;
+    animation: AnimationName 9s ease infinite;
+}
+@-webkit-keyframes AnimationName {
+    0%{background-position:0% 63%}
+    50%{background-position:100% 38%}
+    100%{background-position:0% 63%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:0% 63%}
+    50%{background-position:100% 38%}
+    100%{background-position:0% 63%}
+}
+@-o-keyframes AnimationName {
+    0%{background-position:0% 63%}
+    50%{background-position:100% 38%}
+    100%{background-position:0% 63%}
+}
+@keyframes AnimationName {
+    0%{background-position:0% 63%}
+    50%{background-position:100% 38%}
+    100%{background-position:0% 63%}
 }
 .btn {
 background-color: #000000;
-background-image: linear-gradient(to top, #2276D8, #B52C57);
+background-image: linear-gradient(to top, #25c9bc, #4679c4, #9c00d7);
 
 color: black;
 padding: 15px 32px;
@@ -20,7 +44,7 @@ font-family: 'Roboto Mono', monospace;
 }
 .icons {
 background-color: #000000;
-background-image: linear-gradient(to top, #2276D8, #B52C57);
+background-image: linear-gradient(to top, #25c9bc, #4679c4, #9c00d7);
 
 color: black;
 padding: 15px 32px;
