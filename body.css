@@ -5,6 +5,7 @@
     -moz-animation: AnimationName 9s ease infinite;
     -o-animation: AnimationName 9s ease infinite;
     animation: AnimationName 9s ease infinite;
+background-color: #000000;
 }
 @-webkit-keyframes AnimationName {
     0%{background-position:0% 63%}
