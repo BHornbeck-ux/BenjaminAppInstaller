@@ -1,5 +1,4 @@
  body {
-background-color: #000000;
     background: linear-gradient(270deg, #fc00ff, #8e54e9, #00dbde);
     background-size: 600% 600%;
     -webkit-animation: AnimationName 7s ease infinite;
