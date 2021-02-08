@@ -1,35 +1,35 @@
  body {
-    background: linear-gradient(to left, #25c9bc, #4679c4, #9c00d7);
-    background-size: 600% 600%;
-    -webkit-animation: AnimationName 9s ease infinite;
-    -moz-animation: AnimationName 9s ease infinite;
-    -o-animation: AnimationName 9s ease infinite;
-    animation: AnimationName 9s ease infinite;
-background-color: #000000;
+    background: linear-gradient(224deg, #5433ff, #20bdff, #a5fecb);
+    background-size: 600% 600%;
+    -webkit-animation: AnimationName 10s ease infinite;
+    -moz-animation: AnimationName 10s ease infinite;
+    -o-animation: AnimationName 10s ease infinite;
+    animation: AnimationName 10s ease infinite;
 }
 @-webkit-keyframes AnimationName {
-    0%{background-position:0% 63%}
-    50%{background-position:100% 38%}
-    100%{background-position:0% 63%}
+    0%{background-position:0% 99%}
+    50%{background-position:100% 2%}
+    100%{background-position:0% 99%}
 }
 @-moz-keyframes AnimationName {
-    0%{background-position:0% 63%}
-    50%{background-position:100% 38%}
-    100%{background-position:0% 63%}
+    0%{background-position:0% 99%}
+    50%{background-position:100% 2%}
+    100%{background-position:0% 99%}
 }
 @-o-keyframes AnimationName {
-    0%{background-position:0% 63%}
-    50%{background-position:100% 38%}
-    100%{background-position:0% 63%}
+    0%{background-position:0% 99%}
+    50%{background-position:100% 2%}
+    100%{background-position:0% 99%}
 }
 @keyframes AnimationName {
-    0%{background-position:0% 63%}
-    50%{background-position:100% 38%}
-    100%{background-position:0% 63%}
+    0%{background-position:0% 99%}
+    50%{background-position:100% 2%}
+    100%{background-position:0% 99%}
 }
 .btn {
 background-color: #000000;
-background-image: linear-gradient(to top, #25c9bc, #4679c4, #9c00d7);
+background-image: linear-gradient(to top, 
+#5433ff, #20bdff, #a5fecb);
 
 color: black;
 padding: 15px 32px;
@@ -41,11 +41,16 @@ margin: 4px 2px;
 cursor: pointer;
 border-radius: 50px;
 border:15px solid #000000;
-font-family: 'Sriracha', cursive;
+font-family: SF;
+}
+@font-face {
+    font-family: 'SF';
+    src: url('https://github.com/blaisck/sfwin/raw/master/SFMono/TrueType/SFMono-Regular.ttf');
 }
 .icons {
 background-color: #000000;
-background-image: linear-gradient(to top, #25c9bc, #4679c4, #9c00d7);
+background-image: linear-gradient(to top, 
+#5433ff, #20bdff, #a5fecb);
 
 color: black;
 padding: 15px 32px;
@@ -57,5 +62,5 @@ margin: 4px 2px;
 cursor: pointer;
 border-radius: 50px;
 border:10px solid #000000;
-font-family: 'Sriracha', cursive;
+font-family: SF;
 }
