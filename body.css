@@ -1,36 +1,35 @@
  body {
-    background: linear-gradient(270deg, #5433ff, #20bdff, #a5fecb);
 background-color: #000000;
-    background-size: 600% 600%;
-    -webkit-animation: AnimationName 16s ease infinite;
-    -moz-animation: AnimationName 16s ease infinite;
-    -o-animation: AnimationName 16s ease infinite;
-    animation: AnimationName 16s ease infinite;
+    background: linear-gradient(270deg, #fc00ff, #8e54e9, #00dbde);
+    background-size: 600% 600%;
+    -webkit-animation: AnimationName 7s ease infinite;
+    -moz-animation: AnimationName 7s ease infinite;
+    -o-animation: AnimationName 7s ease infinite;
+    animation: AnimationName 7s ease infinite;
 }
 @-webkit-keyframes AnimationName {
-    0%{background-position:0% 99%}
-    50%{background-position:100% 2%}
-    100%{background-position:0% 99%}
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
 }
 @-moz-keyframes AnimationName {
-    0%{background-position:0% 99%}
-    50%{background-position:100% 2%}
-    100%{background-position:0% 99%}
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
 }
 @-o-keyframes AnimationName {
-    0%{background-position:0% 99%}
-    50%{background-position:100% 2%}
-    100%{background-position:0% 99%}
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
 }
 @keyframes AnimationName {
-    0%{background-position:0% 99%}
-    50%{background-position:100% 2%}
-    100%{background-position:0% 99%}
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
 }
 .btn {
 background-color: #000000;
-background-image: linear-gradient(to top, 
-#5433ff, #20bdff, #a5fecb);
+background-image: linear-gradient(to top, #fc00ff, #8e54e9, #00dbde);
 
 color: black;
 padding: 15px 32px;
@@ -50,8 +49,7 @@ font-family: SF;
 }
 .icons {
 background-color: #000000;
-background-image: linear-gradient(to top, 
-#5433ff, #20bdff, #a5fecb);
+background-image: linear-gradient(to top, #fc00ff, #8e54e9, #00dbde);
 
 color: black;
 padding: 15px 32px;
