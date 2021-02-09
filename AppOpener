@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<title>AppInstaller iOS App Ooener</title>
+
+<link rel="stylesheet" href="https://bhornbeck-ux.github.io/BenjaminAppInstaller/body.css">
+
+<link rel="preconnect" href="https://fonts.gstatic.com"> 
+<link href="https://fonts.googleapis.com/css2?family=Sriracha&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://raw.githubusercontent.com/BHornbeck-ux/new/main/test.css">
+  </head>
+  <body>
+ <center>  
+
+<link rel="preconnect" href="https://fonts.gstatic.com"> 
+<link href="https://fonts.googleapis.com/css2?family=Sriracha&display=swap" rel="stylesheet">
+
+<center>
+<a href="setup-device-migration://" id="o"><button class="btn">Open Setup App</button></a>
+
+<center>
+<a href="diags://" id="o"><button class="btn">Open Diagnostics</button></a>
+
+<center>
+<a href="applefeedback://" id="o"><button class="btn">Open FeedBack</button></a>
+
+<center>
+<a href="itms-apps://" id="o"><button class="btn">Open AppStore</button></a>
+
+<center>
+<a href="com.apple.preferences://" id="o"><button class="btn">Open Settings</button></a>
+
+<center>
+<a href="appleprintcenter://" id="o"><button class="btn">Open Print Center</button></a>
+
+<center>
+<a href="workbenchadtester://" id="o"><button class="btn">Open Apple WorkBench</button></a>
+
+<center>
+<a href="Im://" id="o"><button class="btn">Open iMessage</button></a>
+
+<center>
+<a href="itms-ui://" id="o"><button class="btn">Open AppStore Account Settings</button></a>
+
+<center>
+<a href="prefs-tvprovider://" id="o"><button class="btn">Open TV Provider In Settings</button></a>
+
+<iframe width="955" height="800" src="https://www.youtube.com/embed/Bt0mwV3GesY" frameborder="15"></iframe>
+
+</body>
+</html>
