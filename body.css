@@ -1,34 +1,35 @@
- body {
-    background: linear-gradient(270deg, #fc00ff, #8e54e9, #00dbde);
-    background-size: 600% 600%;
-    -webkit-animation: AnimationName 7s ease infinite;
-    -moz-animation: AnimationName 7s ease infinite;
-    -o-animation: AnimationName 7s ease infinite;
-    animation: AnimationName 7s ease infinite;
+body {
+background: #000000;
+    background-image: linear-gradient(237deg, #0acffe, #7c64d5, #4cc3ff, #495aff);
+    background-size: 800% 800%;
+    -webkit-animation: AnimationName 8s ease infinite;
+    -moz-animation: AnimationName 8s ease infinite;
+    -o-animation: AnimationName 8s ease infinite;
+    animation: AnimationName 8s ease infinite;
 }
 @-webkit-keyframes AnimationName {
-    0%{background-position:0% 50%}
-    50%{background-position:100% 50%}
-    100%{background-position:0% 50%}
+    0%{background-position:0% 87%}
+    50%{background-position:100% 14%}
+    100%{background-position:0% 87%}
 }
 @-moz-keyframes AnimationName {
-    0%{background-position:0% 50%}
-    50%{background-position:100% 50%}
-    100%{background-position:0% 50%}
+    0%{background-position:0% 87%}
+    50%{background-position:100% 14%}
+    100%{background-position:0% 87%}
 }
 @-o-keyframes AnimationName {
-    0%{background-position:0% 50%}
-    50%{background-position:100% 50%}
-    100%{background-position:0% 50%}
+    0%{background-position:0% 87%}
+    50%{background-position:100% 14%}
+    100%{background-position:0% 87%}
 }
 @keyframes AnimationName {
-    0%{background-position:0% 50%}
-    50%{background-position:100% 50%}
-    100%{background-position:0% 50%}
+    0%{background-position:0% 87%}
+    50%{background-position:100% 14%}
+    100%{background-position:0% 87%}
 }
 .btn {
 background-color: #000000;
-background-image: linear-gradient(to top, #fc00ff, #8e54e9, #00dbde);
+background-image: linear-gradient(to top, #0acffe, #7c64d5, #4cc3ff, #495aff); background-size: 800% 800%;
 
 color: black;
 padding: 15px 32px;
@@ -48,7 +49,7 @@ font-family: SF;
 }
 .icons {
 background-color: #000000;
-background-image: linear-gradient(to top, #fc00ff, #8e54e9, #00dbde);
+background-image: linear-gradient(to top, #0acffe, #7c64d5, #4cc3ff, #495aff); background-size: 800% 800%;
 
 color: black;
 padding: 15px 32px;
@@ -61,24 +62,4 @@ cursor: pointer;
 border-radius: 50px;
 border:10px solid #000000;
 font-family: SF;
-}
-.topnav {
-  overflow: hidden;
-  background-color: #333;
-}
-.topnav a {
-  float: left;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 14px;
-}
-.topnav a:hover {
-  background-color: #ddd;
-  color: black;
-}
-.topnav a.active {
-  background-color: #4CAF50;
-  color: white;
 }
