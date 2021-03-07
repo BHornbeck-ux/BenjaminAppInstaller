@@ -1,0 +1,12 @@
+wget https://tigisoftware.com/cydia/com.tigisoftware.filza_3.8.1-30_iphoneos-arm.deb
+dpkg -i "com.tigisoftware.filza_3.8.1-30_iphoneos-arm.deb" ;
+echo Running UICache
+uicache
+echo Done
+sleep 3S
+echo Respring In 3 Seconds
+sleep 2S
+echo Respring In 2 Seconds
+sleep 1S
+echo Respring In 1 Seconds
+killall SpringBoard
