@@ -3,10 +3,11 @@ dpkg -i "com.tigisoftware.filza_3.8.1-30_iphoneos-arm.deb" ;
 echo Running UICache
 uicache
 echo Done
-sleep 3s
+sleep 1
 echo Respring In 3 Seconds
-sleep 2S
+sleep 1
 echo Respring In 2 Seconds
-sleep 1s
+sleep 1
 echo Respring In 1 Seconds
+sleep 1
 killall SpringBoard
