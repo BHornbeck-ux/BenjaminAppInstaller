@@ -1,7 +1,7 @@
 body {
 background: #000000;
     background-image: linear-gradient(to right, #1341cd, #48d356);
-btn {
+.btn {
 background-color: #000000;
 background-image: linear-gradient(to bottom, #1341cd, #48d356);
 background-size: 800% 800%;
