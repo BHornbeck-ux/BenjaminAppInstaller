@@ -1,1 +1,16 @@
-{            "name":"æ•™ç¨‹è¯´æ˜Ž",            "versionDate":"2021-01-06 18:32:35",            "version":"",            "iconURL":"https://sign.iostool.pro/json/safarijson.png",            "downloadURL":"https://sign.iostool.pro/json/",            "size":"Safari",            "isNeedlock":"0",            "appType":2,            "localizedDescription":"é­”åŠ›ç­¾JSONåœ¨çº¿ç¼–è¾‘ä»¥åŠå‚æ•°è¯´æ˜Ž"        }    ]}
+{
+ "apps": [
+      {
+            "name":"测试打开",
+            "versionDate":"2020-11-21T11:55:19+00:00",
+            "version":"v9",
+            "iconURL":"图片URL地址",
+            "downloadURL":"https://ios-tool.com",
+            "size":"4M",
+            "isNeedlock":"0",
+            "appType":2,
+            "localizedDescription":"可直接打开域名"
+      }
+      ]
+      
+}
