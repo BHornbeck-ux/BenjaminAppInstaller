@@ -1,4 +1,16 @@
 {
+"AppInstaller iOS": {
+      "title":"AppInstaller iOS", 
+      "caption":"AppInstaller Repo",
+      "date":"2020-03-28 12:30",
+      "key":"AppInstaller iOS",
+      "tintColor":"10b6ff",
+      "isUnlock":1,
+      "imageURL":"图片URL地址",
+      "url":"https://raw.githubusercontent.com/BHornbeck-ux/BenjaminAppInstaller/main/Ass.json",
+      "pay":"购买解锁码URL地址，留空则不显示。"
+      },
+
  "apps": [
       {
             "name":"测试打开",
