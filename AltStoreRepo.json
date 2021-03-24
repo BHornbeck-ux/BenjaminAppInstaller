@@ -1,6 +1,6 @@
 {
   "name": "AppInstaller",
-  "identifier": "com.AppInstaller.repo",
+  "identifier": "com.AppInstaller.Repo",
   "sourceURL": "https://raw.githubusercontent.com/BHornbeck-ux/BenjaminAppInstaller/main/AltStoreRepo.json",
   "apps": [
     {
@@ -9,7 +9,7 @@
       "developerName": "Riley Testut",
       "version": "1.4.5",
       "versionDate": "2021-03-17T14:00:00-07:00",
-      "versionDescription": "â€¢ Fixes (de-)activating apps\nâ€¢ Fixes potential crash after failing to activate an app",
+      "versionDescription": "• Fixes (de-)activating apps\n• Fixes potential crash after failing to activate an app",
       "downloadURL": "https://cdn.altstore.io/file/altstore/apps/altstore/1_4_5.ipa",
       "localizedDescription": "AltStore is an alternative app store for non-jailbroken devices. \n\nThis version of AltStore allows you to install Delta, an all-in-one emulator for iOS, as well as sideload other .ipa files from the Files app.",
       "iconURL": "https://user-images.githubusercontent.com/705880/65270980-1eb96f80-dad1-11e9-9367-78ccd25ceb02.png",
@@ -24,13 +24,8 @@
         {
           "type": "background-fetch",
           "usageDescription": "AltStore periodically refreshes apps in the background to prevent them from expiring."
-        },
-        {
-          "type": "background-audio",
-          "usageDescription": "Allows AltStore to run longer than 30 seconds when refreshing apps in background."
         }
       ]
-    },
-      ]
-  }
+    }
+  ]
 }
