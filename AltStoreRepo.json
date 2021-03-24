@@ -1,7 +1,7 @@
 {
   "name": "AppInstaller",
   "identifier": "com.AppInstaller.repo",
-  "sourceURL": "https://cdn.altstore.io/file/altstore/apps.json",
+  "sourceURL": "https://raw.githubusercontent.com/BHornbeck-ux/BenjaminAppInstaller/main/AltStoreRepo.json",
   "apps": [
     {
       "name": "AltStore",
