@@ -6,23 +6,23 @@
     {
       "name": "unc0ver",
       "bundleIdentifier": "science.xnu.undecimus",
-      "developerName": "Pwn2Ownd",
+      "developerName": "Pwn20wnd",
       "version": "6.1.1",
       "versionDate": "2021-03-17T14:00:00-07:00",
-      "versionDescription": "• Jailbreak iOS 11-14.3",
+      "versionDescription": "Jailbreak iOS 11-14.3",
       "downloadURL": "https://unc0ver.dev/downloads/6.1.1/decf7c36cc08118dc83ba455f8ca42e0e3cf354c/unc0ver_Release_6.1.1.ipa",
       "localizedDescription": "Jailbreak iOS 11-14.3",
       "iconURL": "https://raw.githubusercontent.com/BHornbeck-ux/BenjaminAppInstaller/main/8622C432-B484-4EC4-85C4-1486B86015F9.png",
       "tintColor": "018084",
       "size": 4791823,
       "screenshotURLs": [
-        "https://user-images.githubusercontent.com/705880/78942028-acf54300-7a6d-11ea-821c-5bb7a9b3e73a.PNG",
-        "https://user-images.githubusercontent.com/705880/65605577-332cba80-df5e-11e9-9f00-b369ce974f71.PNG"
+        "https://raw.githubusercontent.com/BHornbeck-ux/BenjaminAppInstaller/main/16E898C1-0EA4-4C3E-A9A9-AFCDDB6D277B.png",
+        "https://raw.githubusercontent.com/BHornbeck-ux/BenjaminAppInstaller/main/0C0AB9B6-9840-4F91-828E-7811FA590E4D.png"
       ],
       "permissions": [
         {
           "type": "background-fetch",
-          "usageDescription": "AltStore periodically refreshes apps in the background to prevent them from expiring."
+          "usageDescription": "Jailbreak"
         }
       ]
     }
