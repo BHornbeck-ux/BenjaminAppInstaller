@@ -1,5 +1,5 @@
 body {
-    background-color: #F2F7FF;
+background-image: linear-gradient(to right, #A02FE8, #4C00E7);
 }
 @font-face {
     font-family: 'SF';
@@ -7,7 +7,7 @@ body {
 }
 .btn {
 background-size: 800% 800%;
-background-color: #515D6
+background-image: linear-gradient(to bottom, #A02FE8, #4C00E7);
 color: black;
 padding: 15px 32px;
 text-align: center;
