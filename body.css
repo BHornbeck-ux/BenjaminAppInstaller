@@ -7,7 +7,7 @@ background-image: linear-gradient(to right, #A02FE8, #4C00E7);
 }
 .btn {
 background-size: 800% 800%;
-background-image: linear-gradient(to left, #A02FE8, #4C00E7);
+background: linear-gradient(to bottom, #A02FE8, #4C00E7);
 color: black;
 padding: 15px 32px;
 text-align: center;
