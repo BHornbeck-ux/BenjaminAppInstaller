@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>AppInstaller iOS Apps</title>
+        <link rel="stylesheet" href="main.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui, viewport-fit=cover">
+    </head>
+    <body>
+
+<link rel="icon" href="https://raw.githubusercontent.com/BHornbeck-ux/BenjaminAppInstaller/main/28D38DD0-82E5-41CA-BD18-3684F9D68E99.png" type="image/png" sizes="1025x1025">
+
+<center>
+<h66>Tweaked Apps</h66>
+
+           <center>
+            <div class="section group">
+                <div class="col span_1_of_4">
+                    <div class="tweaked">
+                        <a href="itms-services://?action=download-manifest&amp;url=https://app.app-valley.vip/plists/1206/install.plist">Get</a>
+                        <img src="SpotifyIcon.png">
+                        <h1>Spotify++</h1>
+                        
+                    </div>
+
+<center>
+            <div class="section group">
+                <div class="col span_1_of_4">
+                    <div class="tweaked">
+                        <a href="itms-services://?action=download-manifest&amp;url=https://app.app-valley.vip/plists/275/install.plist">Get</a>
+                        <img src="SoundcloudIcon.png">
+                        <h1>SoundCloud++</h1>
+                        
+                    </div>
+
+<center>
+            <div class="section group">
+                <div class="col span_1_of_4">
+                    <div class="tweaked">
+                        <a href="itms-services://?action=download-manifest&amp;url=https://TutuBox.io/plists/TutuBox/TutuBoxLodging.plist">Get</a>
+                        <img src="TutuBoxIcon.png">
+                        <h1>TutuBox</h1>
+                        
+                    </div>
+
+<center>
+            <div class="section group">
+                <div class="col span_1_of_4">
+                    <div class="tweaked">
+                        <a href="itms-services://?action=download-manifest&amp;url=https://app.app-valley.vip/plists/17/install.plist">Get</a>
+                        <img src="YouTubeMusicIcon.png">
+                        <h1>YouTubeMusic++</h1>
+                        
+                    </div>
+
+<center>
+<h66>Jailbreak Apps</h66>
+
+ <center>
+            <div class="section group">
+                <div class="col span_1_of_4">
+                    <div class="tweaked">
+                        <a href="itms-services://?action=download-manifest&amp;url=https://app.app-valley.vip/plists/1574/install.plist">Get</a>
+                        <img src="Unc0verIcon.png">
+                        <h1>unc0ver</h1>
+                        
+                    </div>
+<center>
+            <div class="section group">
+                <div class="col span_1_of_4">
+                    <div class="tweaked">
+                        <a href="itms-services://?action=download-manifest&url=https://jailbreaks.app/cdn/plists/Odyssey.plist">Get</a>
+                        <img src="OdysseyIcon.png">
+                        <h1>Odyssey</h1>
+                        
+                    </div>
+
+<center>
+            <div class="section group">
+                <div class="col span_1_of_4">
+                    <div class="tweaked">
+                        <a href="itms-services://?action=download-manifest&amp;url=https://app.app-valley.vip/plists/460/install.plist">Get</a>
+                        <img src="ElectraIcon.png">
+                        <h1>Electra</h1>
+                        
+                    </div>
+
+<center>
+<h66>App Signing</h66>
+
+ <center>
+            <div class="section group">
+                <div class="col span_1_of_4">
+                    <div class="tweaked">
+                        <a href="itms-services://?action=download-manifest&url=https://www.iphonecake.com/app/appcake.plist">Get</a>
+                        <img src="AppCakeIcon.png">
+                        <h1>AppCake</h1>
+                        
+                    </div>
+
+<center>
+            <div class="section group">
+                <div class="col span_1_of_4">
+                    <div class="tweaked">
+                        <a href="itms-services://?action=download-manifest&url=https://eonhubapp.com/free/plists/magicsign.plist">Get</a>
+                        <img src="MagicSignIcon.png">
+                        <h1>MagicSign</h1>
+                        
+                    </div>
+
+<center>
+            <div class="section group">
+                <div class="col span_1_of_4">
+                    <div class="tweaked">
+                        <a href="itms-services://?action=download-manifest&url=https://raw.githubusercontent.com/276523923/esign/master/esign.plist">Get</a>
+                        <img src="ESignIcon.png">
+                        <h1>ESign</h1>
+                        
+                    </div>
+
+<center>
+<h66>Movie Apps</h66>
+
+<center>
+            <div class="section group">
+                <div class="col span_1_of_4">
+                    <div class="tweaked">
+                        <a href="itms-services://?action=download-manifest&amp;url=https://app.app-valley.vip/plists/158/install.plist">Get</a>
+                        <img src="CercubeIcon.png">
+                        <h1>Cercube 5</h1>
+</div>
+
+<center>
+            <div class="section group">
+                <div class="col span_1_of_4">
+                    <div class="tweaked">
+                        <a href="itms-services://?action=download-manifest&url=https://mediaboxhd.net/ios/manifestmediaboxhdsite1.plist">Get</a>
+                        <img src="MediaBoxIcon.png">
+                        <h1>MediaBoxHD</h1>
+                        
+                    </div>
