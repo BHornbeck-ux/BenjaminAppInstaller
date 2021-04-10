@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>AppInstaller iOS Repos</title>
+        <link rel="stylesheet" href="main.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui, viewport-fit=cover">
+    </head>
+    <body>
+
+<link rel="icon" href="https://raw.githubusercontent.com/BHornbeck-ux/BenjaminAppInstaller/main/28D38DD0-82E5-41CA-BD18-3684F9D68E99.png" type="image/png" sizes="1025x1025">
+
+           <center>
+            <div class="section group">
+                <div class="col span_1_of_4">
+                    <div class="tweaked">
+                        <a href="cydia://url/https://cydia.saurik.com/api/share#?source=https://appinstallerios.com">Add</a>
+                        <img src="cydia.png">
+                        <h1>Cydia</h1>
+                        
+                    </div>
+
+ <center>
+            <div class="section group">
+                <div class="col span_1_of_4">
+                    <div class="tweaked">
+                        <a href="sileo://source/https://appinstallerios.com">Add</a>
+                        <img src="sileo.png">
+                        <h1>Sileo</h1>
+                        
+                    </div>
+
+ <center>
+            <div class="section group">
+                <div class="col span_1_of_4">
+                    <div class="tweaked">
+                        <a href="zbra://sources/add/https://appinstallerios.com">Add</a>
+                        <img src="zebra.png">
+                        <h1>Zebra</h1>
+                        
+                    </div>
+
+<center>
+            <div class="section group">
+                <div class="col span_1_of_4">
+                    <div class="tweaked">
+                        <a href="installer://add/https://appinstallerios.com">Add</a>
+                        <img src="installer.png">
+                        <h1>Installer 5</h1>
+                        
+                    </div>
