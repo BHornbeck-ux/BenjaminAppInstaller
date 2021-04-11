@@ -25,6 +25,29 @@
           "usageDescription": "Jailbreak"
         }
       ]
+    },
+    {
+      "name": "Taurine",
+      "bundleIdentifier": "com.odysseyteam.taurine",
+      "developerName": "Odyssey Team",
+      "version": "1.0.3",
+      "versionDate": "2021-03-17T14:00:00-07:00",
+      "versionDescription": "Time to get amped",
+      "downloadURL": "https://github.com/Odyssey-Team/Taurine/releases/download/1.0.3/Taurine-1.0.3.ipa",
+      "localizedDescription": "Jailbreak iOS 11-14.3",
+      "iconURL": "https://taurine.app/assets/images/icon.png",
+      "tintColor": "1C82E7",
+      "size": 181000000,
+      "screenshotURLs": [
+        "https://taurine.app/assets/images/ss-2.png",
+        "https://taurine.app/assets/images/ss-3.png"
+      ],
+      "permissions": [
+        {
+          "type": "background-fetch",
+          "usageDescription": "Jailbreak"
+        }
+      ]
     }
   ]
 }
