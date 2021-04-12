@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>AppInstaller iOS Shortcuts Library</title>
+        <link rel="stylesheet" href="main.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui, viewport-fit=cover">
+    </head>
+    <body>
+
+    <script src="https://kit.fontawesome.com/30a2a8977f.js" crossorigin="anonymous"></script>
+
+<link rel="icon" href="https://raw.githubusercontent.com/BHornbeck-ux/BenjaminAppInstaller/main/28D38DD0-82E5-41CA-BD18-3684F9D68E99.png" type="image/png" sizes="1025x1025">
+
+<link rel="apple-touch-icon" href="https://raw.githubusercontent.com/BHornbeck-ux/BenjaminAppInstaller/main/28D38DD0-82E5-41CA-BD18-3684F9D68E99.png" />
+
+ <meta name="apple-mobile-web-app-capable" content="yes">
+
+<center>
+            <div class="section group">
+                <div class="col span_1_of_4">
+                    <div class="tweaked">
+                        <a href="https://www.icloud.com/shortcuts/805cc5086aba40529b4ba7ad636650da">Get</a>
+                        <img src="ShortcutsIcon.png">
+                        <h1>Setup App</h1>
+                        
+                    </div>
+
+</html>
