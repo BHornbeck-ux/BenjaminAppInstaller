@@ -2,11 +2,9 @@ body {
     margin:0px;
     padding:0;
     font-family:helvetica;
-    color: #F2F7FF;
-    background-color: #1A1A1A;
-    overflow-x: hidden;
     background-image: linear-gradient(to right, #A02FE8, #4C00E7);
-
+    color:#ffffff;
+    overflow-x: hidden;
 }
 
 a{
@@ -19,7 +17,7 @@ a{
     padding:20px;
     width:80%;
     border-radius:20px;
-    background-color: #1A1A1A;
+    background-color: #1C0A38;
     height:60px;
 }
 
@@ -55,9 +53,9 @@ a{
     padding:5px;
     border-radius:50px;
     float:right;
-    color:#1C82E7;
+    color:#F2F7FF;
     margin-right:0px;
-    border:5px solid #1e93ff
+    border:5px solid #F2F7FF;
 }
 h66 {
 font-size: 40px;
