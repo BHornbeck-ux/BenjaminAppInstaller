@@ -60,7 +60,8 @@ color: #1A1A1A;
     margin:10px;
     padding:20px;
     width:80%;
-    color: #000000;
+    border-radius:20px;
+    background-color: #1C0B36;
     height:25px;
-    font-size: 200px;
+    font-size: 25px;
 }
