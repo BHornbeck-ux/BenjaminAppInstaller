@@ -7,12 +7,10 @@ body {
     overflow-x: hidden;
     background-color: # ;
 }
-
 a{
     text-decoration:none;
     color:#1C82E7;
 }
-
 .tweaked{
     margin:10px;
     padding:20px;
@@ -21,7 +19,6 @@ a{
     background-color: #1C0B36;
     height:60px;
 }
-
 .tweaked img{
     width:60px;
     height:60px;
@@ -29,14 +26,12 @@ a{
     border-radius:23.3%;
     margin-left:0px;
 }
-
 .tweaked h1{
     font-size:16px;
     margin-left:70px;
     text-align:justify;
     margin-bottom:0px;
 }
-
 .tweaked p{
     font-size:13px;
     margin-left:-25px;
@@ -47,7 +42,6 @@ a{
     text-align:justify;
     margin-top:2px;
 }
-
 .tweaked a{
     display:block;
     width:55px;
@@ -62,11 +56,12 @@ h66 {
 font-size: 40px;
 color: #1A1A1A;
 }
-.ios{
+.ios {
     margin:10px;
     padding:20px;
     width:80%;
     border-radius:10px;
     background-color: #F2F7FF;
     height:25px;
+    font-size: 200px;
 }
