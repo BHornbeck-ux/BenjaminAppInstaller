@@ -91,87 +91,11 @@
                         
                     </div>
 
-<body>
-
-    <!-- Navbar -->
-    <div id="navbar">
-        <div id="navInner">
-            <span id="navbarName" onClick="goTo()"></span>
-        
-                <style>
-                    path {
-                        fill: var(--text-color)
-                    }
-           </style>
-
-            <span class="right" onClick="goTo('creditsTitle')"></span>
-            <span class="right" onClick="goTo('uncoverCenterTitle')"></span>
-        </div>
-    </div>
-
-    <!-- Background Mountains -->
-    <div class="backgroundMountain"></div>
-    <div class="backgroundMountain" id="blurredMountain"></div>
-
-    <!-- Main Content -->
-    <div class="mainContent">
-
-        <!-- Center Unc0ver Logo and Download -->
-        <div id="comingSoon" style="display:none">
-            <div id="etaCounter">
-            </div>
-            <p id="currentProgress"></p>
-            <div id="progress">
-                <div id="progressBar">
-                </div>
-            </div>
-        </div>
-        <div id="tweetIt" style="margin: 16px;color:var(--light-text-color);display:none">
-            <p style="margin-bottom: 8px"></p>
-            <a href="https://twitter.com/intent/tweet?button_hashtag=unc0ver" class="twitter-hashtag-button" data-show-count="false"></a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-        </div> 
-        <a id="latestDownloadURL">
-            <div onclick="goTo('supportUnc0ver')" id="latestButton" class="button expandOutElement"></div>
-        </a>
-        <div id="altStoreSection" style="display:none">
-            <a id="altStoreLink">
-                <div onclick="goTo('supportUnc0ver')" class="button secondaryButton expandOutElement"></div>
-            </a>
-            <span></span>
-        </div>
-        <a id="alternativeDownloadURL">
-            <p id="altDownloadURL" style="display:none"></p>
-        </a>
-
-        <a id="installLinkURL">
-            <p id="installLink" style="display:none"></p>
-        </a>
-
-        <div id="payLinks">
-
-            <a href="/paypal">
-                <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg"
-                    xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 512 512"
-                    style="enable-background:new 0 0 512 512;" xml:space="preserve" width=40 height=40>
-                    <g>
-                        <g>
-                           
-                        </g>
-                    </g>
-                </svg>
-            </a>
-
-        </div>   
-
-<link rel="preconnect" href="https://fonts.gstatic.com"> 
-<link href="https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap" rel="stylesheet">
-
-     <center>
-            <span style="font-family: 'Zen Dots', cursive;color:#000000;font-size:50px"id="iOSVersion"></span>
-        </p>
-
-<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script></body>
-<script src="https://cdn.jsdelivr.net/npm/showdown"></script>
-<script src="ios.js"></script>
+                    <div class="item-inner">
+                      <div class="item-title-row">
+                        <div class="iOS"><script> var ios = ((navigator.userAgent).match(/OS (\d)?\d_\d(_\d)?/i)[0].replace(/_/g, ".").replace("OS", "iOS"))
+                        document.write(""+ios+"")
+                        </script></div>
+                      </div>
 
 </html>
