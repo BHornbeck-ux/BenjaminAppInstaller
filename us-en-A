@@ -1,0 +1,15 @@
+{
+   "version" : 11,
+   "initialAssetCount" : 4,
+   "assets" : [
+      {
+         "id" : "US_EN_2020marcomloop_11",
+         "url-1080-H264" : "https://appinstallerios.com/AppleScreenSaver2018.mp4",
+         "url-1080-SDR" : "https://appinstallerios.com/AppleScreenSaver2018.mp4",
+         "url-1080-HDR" : "https://appinstallerios.com/AppleScreenSaver2018.mp4",
+         "url-4K-SDR" : "https://appinstallerios.com/AppleScreenSaver2018.mp4",
+         "url-4K-HDR" : "https://appinstallerios.com/AppleScreenSaver2018.mp4",
+         "accessibilityLabel" : "2020marcomloop—us"
+      }
+   ]
+}
