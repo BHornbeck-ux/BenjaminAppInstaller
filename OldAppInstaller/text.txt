@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Benjamin Hornbeck’s App Installer</title>
+<style>
+body {
+  background-color: #000000;
+}
+div.logo {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 5rem;
+  text-align: center;
+}
+div.heading {
+  font-family: HelveticaNeue-Bold;
+  text-align: center;
+  color: blue;
+}
+.button {
+  background-color: #ebebeb;
+  border: 8px solid;
+  font-family: HelveticaNeue-Bold;
+  border-color: #ff0000;
+  color: black;
+  border-radius: 12px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 40px;
+  width: 250px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 0px 20px 0 rgba(0,0,0,0.19);
+  -webkit-appearance: automatic;
+}
+@media (prefers-color-scheme: automatic) {
+.button {
+background-color: #3D3D3D;
+color: #FFFFFF;
+box-shadow: 0 8px 16px 0 rgba(255,255,255,0.2), 0 0px 20px 0 rgba(255,255,255,0.19);
+}
+body {
+background-color: #1726D4;
+}
+div.heading {
+  font-family: HelveticaNeue-Bold;
+  text-align: center;
+  color: white;
+}
+a {
+filter: invert(100%);
+}
+</style>
+</head>
+<body>
+<div class="heading">
+<h1>© Benjamin Hornbeck</h1>
+</div>
+                               <tbody>
+                                  <tr>
+                                    <td>
+                                      <h3 
+                 <td valign="top">
+                              <table border="2" cellpadding="2" cellspacing="2" width="100%" style="background-color:#078ED9;color:#ffffff;border-radius:6px!important;border-bottom:0;font-family:sans-serif;font-weight:lighter;line-height:100%;vertical-align:middle" >
+                                <tbody>
+                                  <tr>
+                                    <td>
+                                      <h3 
+        <center>
+        <p class="text-p">TutuBox Full</p>
+        <a href="itms-services://?action=download-manifest&amp;url=https://TutuBox.io/plists/TutuBox/TutuBoxLodging.plist" id="o"><button class="btn"><i class="fa fa-download"></i> Cert 1 (SIGNED)</button></a>
+        <a href="https://saunderstech.co" id="o"><button class="btn"><i class="fa fa-download"></i> Signulous (NO REVOKE)</button></a>
+
+<td valign="top">
+                              <table border="2" cellpadding="2" cellspacing="2" width="100%" style="background-color:#078ED9;color:#ffffff;border-radius:6px!important;border-bottom:0;font-family:sans-serif;font-weight:lighter;line-height:100%;vertical-align:middle" >
+                                <tbody>
+                                  <tr>
+                                    <td>
+                                      <h3 
+
+               height="120" style="border-radius:24px;">
+<div style="margin-top:40px;margin-left: 10px;">
+<a href="#" onclick="window.location='itms-services://?action=download-manifest&amp;url=https://app.app-valley.vip/plists/1574/install.plist';" data-id="1590" data-app-name="unc0ver jailbreak "><span class="myButton install_button" id="pulse">Install unc0ver</span></a>
+
+
+</script>
+</html>
